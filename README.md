@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome book] <a name="about-project"></a>
+# 📖 [Awesome-book-ES6] <a name="about-project"></a>
 
-**[AwesomeBookES6]** is my demo project for learning ES6 modules
+**[Awesome-Book-ES6]** is my demo project for learning ES6 modules
  and it is a simple website that displays a list of books and allows you to add and remove books from that list.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -56,7 +56,7 @@
 
 ## 🚀 Live Demo<a name="live-demo"></a>
 
-- [Live Demo Link](https://abdussattar-70.github.io/AwesomeBookES6/)
+- [Live Demo Link](https://abdussattar-70.github.io/Awesome-Book-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,8 +85,7 @@ git clone https://github.com/AbdusSattar-70/AwesomeBookES6.git
 
 Install this project with:
 
-- npx init
-- npm init -y
+- npm install 
 - npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 - npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 
