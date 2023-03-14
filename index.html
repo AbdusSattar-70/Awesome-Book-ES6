@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books with ES6</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <h1><button>Awesome Books</button></h1>
+      <ul class="menu">
+        <li><button id="addNewbookBtn" type="submit">Add New Book</button></li>
+        <li><button id="list" type="submit">List</button></li>
+        <li><button id="contact" type="submit">Contact</button></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <button id="date-time"></button>
+    <section class="addBookPopUp">
+      <div class="addBookContainer">
+        <form id="inputField">
+          <li>Add a New Book</li>
+          <li><input name="title" id="bookName" type="text" placeholder="Enter book name" required></li>
+          <li><input name="author" id="authorName" type="text" placeholder="Enter author name" required></li>
+          <li><button id="add" type="submit">Add</button></li>
+        </form>
+      </div>
+    </section>
+    <section class="bookListCon">
+      <h2>All Awesome Books</h2>
+      <div class="bookList">
+
+      </div>
+    </section>
+    <section class="contact">
+      <h2>Contact Informaton</h2>
+      <p>Do you have any questions or you just want to say "Hello"?</p>
+      <p>You can reach out to us at the following address</p>
+      <ul>
+        <li>Our e-mail: ewsdmail@mail.com</li>
+        <li>Our phone number: 001485975652</li>
+        <li>Our address: No. 23 Baliadaha Street, Jamalpur, Bangladesh</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <small>
+      Copyright © 2023 Insider Inc. All rights reserved. Privacy Policy and Cookies Policy
+    </small>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
